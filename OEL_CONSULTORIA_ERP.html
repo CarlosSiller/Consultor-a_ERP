@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultoría ERP y Transformación Digital</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #0044cc, #0066ff);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #003399;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background: #002266;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #003399;
+            color: white;
+            margin-top: 20px;
+        }
+        .services, .about {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .services div, .about div {
+            flex: 1;
+            margin: 10px;
+            padding: 10px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+        form input, form textarea {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background: #0066ff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background: #0044cc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Consultoría ERP y Transformación Digital</h1>
+        <p>Optimizando procesos, impulsando tecnología, asegurando continuidad</p>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <section id="inicio">
+        <h2>Bienvenido</h2>
+        <p>Te ayudamos a liderar la transformación digital de tu empresa, optimizando procesos y garantizando la continuidad operativa.</p>
+    </section>
+    <section id="servicios" class="services">
+        <h2>Servicios</h2>
+        <div>
+            <h3>Implementación de ERP</h3>
+            <p>Diseño e implementación de sistemas ERP para optimizar tus operaciones empresariales.</p>
+        </div>
+        <div>
+            <h3>Digitalización de Procesos</h3>
+            <p>Automatiza y digitaliza tus procesos clave para ganar eficiencia y precisión.</p>
+        </div>
+        <div>
+            <h3>Transformación Digital</h3>
+            <p>Estrategias integrales para adaptar tu negocio a la era digital.</p>
+        </div>
+        <div>
+            <h3>Gestión de Continuidad</h3>
+            <p>Planificación y soluciones para mantener tu empresa operativa frente a desafíos tecnológicos.</p>
+        </div>
+    </section>
+    <section id="sobre-mi" class="about">
+        <h2>Sobre mí</h2>
+        <div>
+            <p>Con años de experiencia en consultoría tecnológica, me especializo en implementar soluciones ERP, optimizar procesos y guiar a las empresas hacia la transformación digital con un enfoque estratégico y orientado a resultados.</p>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Interesado en nuestros servicios? Contáctanos.</p>
+        <form action="https://formsubmit.co/tu-email" method="POST">
+            <input type="text" name="name" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Correo electrónico" required>
+            <textarea name="message" rows="5" placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Consultoría ERP. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
